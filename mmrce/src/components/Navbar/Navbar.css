@@ -5,8 +5,35 @@
   height: 4.2rem;
 }
 
+.ul-test {
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+}
+
+.ul-test > li {
+  padding: 0;
+  margin: 0;
+  display: none;
+  /* only set to none until desktop version is done */
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+}
+
 .site-logo {
   height: 2.9rem;
   padding-left: 1rem;
-  padding-top: 0.75rem;
+  align-self: center;
+}
+
+.menu-icon {
+  height: 4.2rem;
+  margin-left: auto;
+  align-self: center;
+  padding-right: 0.5rem;
 }
