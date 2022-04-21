@@ -1,11 +1,12 @@
 import React from "react";
 import "./normalize.css";
 import "./App.css";
+//listing Components
+import Navbar from "./components/Navbar/Navbar";
+//end of Components
 
-export default function App() {
-  return (
-    <div>
-      <h1>test</h1>
-    </div>
-  );
-}
+const App = () => {
+  return <Navbar />;
+};
+
+export default App;
