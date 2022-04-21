@@ -6,7 +6,11 @@ import Navbar from "./components/Navbar/Navbar";
 //end of Components
 
 const App = () => {
-  return <Navbar />;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
