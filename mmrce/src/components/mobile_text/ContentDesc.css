@@ -1,0 +1,17 @@
+.content-desc {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 1.425rem;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  color: #ffffff;
+  font-size: 1.633667rem;
+  opacity: 0.85;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  letter-spacing: 0.0546rem;
+
+  /* line-height: 109px; */
+}
