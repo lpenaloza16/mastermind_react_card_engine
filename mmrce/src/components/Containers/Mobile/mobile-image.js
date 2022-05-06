@@ -1,9 +1,10 @@
-let mobImage = (props) => {
+import React from "react";
+let MobImage = (props) => {
   return (
-    <div>
+    <div className="mob-img-container">
       <img src={props.source} />
     </div>
   );
 };
 
-export default mobImage;
+export default MobImage;
