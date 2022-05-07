@@ -3,6 +3,7 @@ import "./Navbar.css";
 //allows to import images
 import logo from "./icon-logo.png";
 import menu from "./hamburger_menu.png";
+import MenuEvent from "./Mob-nav/MobNav";
 
 const Navbar = () => {
   return (
@@ -13,7 +14,12 @@ const Navbar = () => {
         <li>Your Library</li>
         <li>Create</li>
         <li>Settings</li>
-        <img className="menu-icon" src={menu} alt="menu-icon" />
+        <img
+          onClick={() => MenuEvent()}
+          className="menu-icon"
+          src={menu}
+          alt="menu-icon"
+        />
       </ul>
     </div>
   );

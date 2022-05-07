@@ -11,7 +11,21 @@ import notepad from "./components/Containers/Mobile/notepad.jpg";
 import MobButton from "./components/Buttons/Mobile/MobButton";
 //end of Components
 
+//temp solution start
+import MobNav from "./components/Navbar/Mob-nav/MobNav";
+//temp solution end
+
+//vanilla bootstrap start
+
+//vanilla boostrap end
+
+//React Bootstrap start
+//React Bootstrap will be postponed for now, currently using vanilla bootstrap
+//React Boostrap end
+
 const App = () => {
+  //for debugging purposes for click
+  let hbMenu = null;
   return (
     <div className="app-wrapper">
       <Navbar />
