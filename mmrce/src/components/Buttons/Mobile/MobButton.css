@@ -1,0 +1,24 @@
+.mob-button {
+  background-color: #c4c4c4;
+  color: white;
+  margin-top: 1.425rem;
+  color: #ffffff;
+  font-size: 1.425rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding: 0.8rem 6rem;
+  /* opacity: 0.76;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.0546rem; */
+}
+
+.mob-button-container {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.39rem;
+  padding-bottom: 0.61rem;
+}
