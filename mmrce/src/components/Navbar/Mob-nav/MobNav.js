@@ -5,7 +5,7 @@ function MenuEvent() {
   let ActiveMenu = () => {
     if (hbMenu != 1) {
       hbMenu = 1;
-      alert("turned on");
+      alert("This function isn't implemented");
     } else if (hbMenu === 1) {
       alert("turned off");
       hbMenu = 0;

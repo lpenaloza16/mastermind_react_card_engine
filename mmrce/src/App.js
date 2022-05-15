@@ -25,7 +25,7 @@ import MobNav from "./components/Navbar/Mob-nav/MobNav";
 
 const App = () => {
   //for debugging purposes for click
-  let hbMenu = null;
+  
   return (
     <div className="app-wrapper">
       <Navbar />
