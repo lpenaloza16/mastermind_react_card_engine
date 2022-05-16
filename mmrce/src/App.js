@@ -9,10 +9,12 @@ import ContentDesc from "./components/mobile_text/ContentDesc";
 import MobImage from "./components/Containers/Mobile/mobile-image";
 import notepad from "./components/Containers/Mobile/notepad.jpg";
 import MobButton from "./components/Buttons/Mobile/MobButton";
+import BootStrapMenu from "./components/universal/BootStrapMenu/BootStrapMenu";
+
 //end of Components
 
 //temp solution start
-import MobNav from "./components/Navbar/Mob-nav/MobNav";
+
 //temp solution end
 
 //vanilla bootstrap start
@@ -25,9 +27,10 @@ import MobNav from "./components/Navbar/Mob-nav/MobNav";
 
 const App = () => {
   //for debugging purposes for click
-  
+
   return (
     <div className="app-wrapper">
+      <BootStrapMenu />
       <Navbar />
       <Vpm />
       <ContentTitle learning="Learning Done Easy 💯" />
